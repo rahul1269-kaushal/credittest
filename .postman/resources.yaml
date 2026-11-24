@@ -1,0 +1,24 @@
+workspace:
+  id: aaa75f04-597c-4810-b96a-e7446c2fa101
+localResources:
+  collections:
+    - ../postman/collections/[Baseline] claims-processing-service
+    - ../postman/collections/[Smoke] claims-processing-service
+    - ../postman/collections/[Contract] claims-processing-service
+  environments:
+    - ../postman/environments/prod.postman_environment.json
+    - ../postman/environments/staging.postman_environment.json
+    - ../postman/environments/dev.postman_environment.json
+  specs:
+    - ../spec/claims-processing-api-openapi.yaml
+cloudResources:
+  collections:
+    ../postman/collections/[Baseline] claims-processing-service: 28062698-ad95a472-e756-4584-9f47-21de125fa275
+    ../postman/collections/[Smoke] claims-processing-service: 28062698-770b1d3b-bbe2-4d6d-bff6-8994b57bd0f6
+    ../postman/collections/[Contract] claims-processing-service: 28062698-1bac1ef7-e782-428c-ba6a-5238438f13c6
+  environments:
+    ../postman/environments/prod.postman_environment.json: 28062698-857ce97d-fe7b-482d-99e4-f340f151ff44
+    ../postman/environments/staging.postman_environment.json: 28062698-0f7cf059-285c-48d0-9546-82b5b4253962
+    ../postman/environments/dev.postman_environment.json: 28062698-5f7fd856-c810-4b4f-b320-cb418afbc91d
+  specs:
+    ../spec/claims-processing-api-openapi.yaml: 3bbf009f-f30e-42e9-93db-b01d90101e7f
